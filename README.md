@@ -70,25 +70,28 @@ Results will be saved in the `results/` folder.
   - Minimax (depth=4) achieves ~100% win rate.  
   - Q-Learning is more competitive, ~54% win rate.  
 
----
-
 ## 📈 Visualization
 
-The `visualization/` module provides:
-- Win/Draw/Loss distributions  
-- Execution time comparisons  
-- Node exploration statistics  
-- Alpha-Beta pruning efficiency plots  
+**Algorithm Performance Summary**
+
+| Game        | Algorithm       | Win Rate (%) | Draw Rate (%) | Loss Rate (%) |
+|-------------|-----------------|--------------|---------------|---------------|
+| Tic Tac Toe | Minimax         | 84.0         | 16.0          | 0.0           |
+| Tic Tac Toe | Minimax-AB      | 87.0         | 13.0          | 0.0           |
+| Tic Tac Toe | Q-Learning      | 8.0          | 24.0          | 68.0          |
+| Connect 4   | Minimax         | 100.0        | 0.0           | 0.0           |
+| Connect 4   | Minimax-AB      | 96.0         | 2.0           | 2.0           |
+| Connect 4   | Q-Learning      | 54.0         | 18.0          | 28.0          |
 
 ---
 
-## 📘 References
+## References
 - Allis, V. (1988). *A knowledge-based approach of Connect-4*.  
 - Sutton & Barto (2018). *Reinforcement Learning: An Introduction*.  
 - Campbell et al. (2002). *Deep Blue*.  
 
 ---
 
-## 👩‍💻 Author
+## Author
 **Vishaalini Ramasamy Manikandan**  
-MSc Computer Science (Data Science), Trinity College Dublin  
+
