@@ -1,0 +1,14 @@
+,games,wins,losses,draws,win_rate,avg_execution_time,avg_nodes_visited,Game
+Minimax vs Default,100.0,84.0,0.0,16.0,0.84,0.0,8.52,Tic Tac Toe
+Minimax-AB vs Default,100.0,88.0,0.0,12.0,0.88,0.0,8.98,Tic Tac Toe
+Q-Learning vs Default,100.0,8.0,68.0,24.0,0.08,1.3518333435058594e-05,,Tic Tac Toe
+Minimax vs Q-Learning,100.0,100.0,0.0,0.0,1.0,0.0004789066314697266,121.8,Tic Tac Toe
+Minimax-AB vs Q-Learning,100.0,99.0,0.0,1.0,0.99,0.0001736927032470703,58.83,Tic Tac Toe
+Minimax vs Random,50.0,50.0,0.0,0.0,1.0,0.0013776683807373046,14.08,Connect 4
+Minimax-AB vs Random,50.0,48.0,0.0,2.0,0.96,0.0013792705535888672,15.4,Connect 4
+Q-Learning vs Random,50.0,27.0,23.0,0.0,0.54,0.0,,Connect 4
+Minimax vs Default,10.0,10.0,0.0,0.0,1.0,0.006251835823059082,20.5,Connect 4
+Minimax-AB vs Default,10.0,9.0,0.0,1.0,0.9,0.0002966642379760742,13.5,Connect 4
+Q-Learning vs Default,10.0,0.0,10.0,0.0,0.0,0.0,,Connect 4
+Minimax vs Q-Learning,10.0,10.0,0.0,0.0,1.0,0.003242683410644531,16.5,Connect 4
+Minimax-AB vs Q-Learning,10.0,10.0,0.0,0.0,1.0,9.97304916381836e-05,17.7,Connect 4
